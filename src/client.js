@@ -2,7 +2,7 @@ const net = require("net");
 
 async function run() {
   const port = 3939;
-  const hostname = "127.0.0.1";
+  const hostname = "127.0.0.1" || "localhost";
 
   const socket = new net.Socket();
 
