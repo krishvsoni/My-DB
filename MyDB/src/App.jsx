@@ -69,11 +69,11 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
+    <div className="min-h-screen  font-mono bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
       <div className="relative py-3 sm:max-w-xl sm:mx-auto">
         <div className="relative px-4 py-10 bg-white mx-8 md:mx-0 shadow-md rounded-3xl sm:p-10">
           <div className="max-w-md mx-auto">
-            <h1 className="text-2xl text-center font-bold text-gray-600">My-DB</h1>
+            <h1 className="text-2xl text-center font-bold text-gray-600">Add Collection</h1>
             <div className="divide-y divide-gray-200">
               <div className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
                 <div>
